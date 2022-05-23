@@ -16,6 +16,7 @@ body {
 nav img {
     height: 6vh;
     padding: 0.5vh;
+    margin: 1vh;
 }
 
 nav {
@@ -121,7 +122,7 @@ header:after {
 
 /*Texts*/
 
-h1 {
+h1, h2, h3 {
     font-size: 7vh;
     text-align: center;
 }
@@ -139,7 +140,7 @@ p {
     justify-content: center;
 }
 
-.about {
+.about-section {
     color: black;
 }
 
@@ -148,7 +149,7 @@ p {
     margin: 10vh;
 }
 
-.circle {
+.profile-circle {
     width: 15vw;
 }
 
@@ -287,8 +288,8 @@ input[type=submit]:hover {
 @media only screen and (max-width: 700px) {
     nav,
     header,
-    .about,
-    .circle,
+    .about-section,
+    .profile-circle,
     .portfolio,
     .projects,
     footer {
