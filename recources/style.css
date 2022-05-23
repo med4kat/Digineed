@@ -283,3 +283,44 @@ input[type=submit]:hover {
     background-color: rgb(79, 203, 190) !important;
 }
 
+@media only screen and (max-width: 700px) {
+    nav,
+    header,
+    .about,
+    .circle,
+    .portfolio,
+    .projects,
+    footer {
+        width: 100vh;
+    }
+    .aboutus {
+        width: 10vh;
+        height: 10vh;
+    }
+    .projects {
+        display: flex;
+        justify-content: center;
+        gap: 10vh;
+        margin-top: 10vh;
+    }
+    .projects h1 {
+        font-size: 5vh;
+    }
+    .projects div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.05vh solid black;
+        border-radius: 3vh;
+        height: 25vh;
+        width: 25vh;
+        text-align: center;
+        margin-top: 3vh;
+        font-size: 3vh;
+    }
+}
