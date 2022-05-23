@@ -12,11 +12,11 @@
 <body>
     <!--Navbar-->
     <nav>
-        <ul>
+        <ul class="navigation-bar">
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li id="contact"><a href="#contact"><span>CONTACT</span></a></li>
 
         </ul>
     </nav>
@@ -24,14 +24,12 @@
     <header>
         <div class="home">
             <h1 id="home">
-                Lorem ipsum
+                Lorem ipsum ipsum lorem lorem
             </h1>
-            <p id="home1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.</p>
+            <p id="home1">Lorem ipsum dolor sit amet, consectetur </p>
         </div>
         <div class="custom-shape-divider-bottom-1653210462">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 120"
-                preserveaspectratio="none">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1200 120" preserveaspectratio="none">
                 <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
             </svg>
         </div>
@@ -43,35 +41,65 @@
         <section class="about">
             <h1 id="about">ABOUT</h1>
             <div class="names">
-                <div class="aboutus">ANASTAS</div>
-                <div class="aboutus">JOPPE</div>
-                <div class="aboutus">KATRINA</div>
-                <div class="aboutus">LIAM</div>
-                <div class="aboutus">LINN</div>
+                <div>
+                    <div class="aboutus">Anastas</div>
+                    <p>insert inspirational text</p>
+                </div>
+                <div>
+                    <div class="aboutus">Joppe</div>
+                    <p>insert inspirational text</p>
+                </div>
+                <div>
+                    <div class="aboutus">Ekatrina</div>
+                    <p>insert inspirational text</p>
+                </div>
+                <div>
+                    <div class="aboutus">Linn</div>
+                    <p>insert inspirational text</p>
+                </div>
+                <div>
+                    <div class="aboutus">Liam</div>
+                    <p>insert inspirational text</p>
+                </div>
             </div>
         </section>
         <!--Portfolio-->
         <section class="portfolio">
             <h1>PORTFOLIO</h1>
             <div class="projects">
-                <div>PROJECT</div>
-                <div>PROJECT</div>
-                <div>PROJECT</div>
+                <div>
+                    <h1>PROJECT</h1>
+                    <section>
+                        insert img here
+                    </section>
+                </div>
+                <div>
+                    <h1>PROJECT</h1>
+                    <section>
+                        insert img here
+                    </section>
+                </div>
+                <div>
+                    <h1>PROJECT</h1>
+                    <section>
+                        insert img here
+                    </section>
+                </div>
             </div>
         </section>
     </main>
     <!--Footer-->
     <footer style="display: flex; justify-content: center;">
-        <div class="text" style="width: 36%; margin-right: 10%">
-            <h1 id="contactus">Contact Us</h1>
+        <div class="text" style="display: flex; flex-direction: column; justify-content: center; width: 36%; margin-right: 10%">
+            <h1 id="contactus">Contact Us</h1><br>
             <p id="footer">Would you like to discuss an idea with us? Don't hesitate to send us a message!</p>
         </div>
         <div class="form" style="display: flex; flex-direction: column;">
-            <input type="text" name="name" id="name" value="name"> <br>
-            <input type="text" name="email" id="email" value="email"> <br>
-            <input type="text" name="subject" id="subject" value="subject"> <br>
-            <input type="text" name="messgae" id="message" value="message"> <br>
-            <input type="submit" id="submit" value="submit"> <br>
+            <input type="text" name="name" id="name" placeholder="name">
+            <input type="text" name="email" id="email" placeholder="email">
+            <input type="text" name="subject" id="subject" placeholder="subject">
+            <input type="text" name="messgae" id="message" placeholder="message">
+            <input type="submit" id="submit">
         </div>
     </footer>
 </body>
