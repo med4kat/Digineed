@@ -324,4 +324,7 @@ input[type=submit]:hover {
         margin-top: 3vh;
         font-size: 3vh;
     }
+    .form {
+        padding: 2.5vh 5vh;
+    }
 }
