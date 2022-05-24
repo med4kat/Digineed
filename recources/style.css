@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&display=swap');
 * {
+    overflow: none;
     margin: 0;
     box-sizing: border-box;
 }
@@ -67,7 +68,6 @@ header {
     bottom: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
