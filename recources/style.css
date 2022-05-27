@@ -286,15 +286,6 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 700px) {
-    nav,
-    header,
-    .about,
-    .circle,
-    .portfolio,
-    .projects,
-    footer {
-        width: 100vh;
-    }
     .aboutus {
         width: 10vh;
         height: 10vh;
